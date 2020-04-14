@@ -15,7 +15,7 @@ public class MainClass {
         Track track = new Track(500);
 
         for (int i = 0; i < part1.length; i++) {//С помощью цикла проходим полосу препятствий
-            if (wall.doIt(part1[i])){
+            if (wall.doIt(part1[i])) {
                 track.doIt(part1[i]);
             }
         }
